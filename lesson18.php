@@ -72,14 +72,27 @@
 //    echo lucky(123456);
 //   // var_dump($arr);
     
+    $arr = range(1,1000);
 
+    function getCommonDivisors($num)
+    {
+        $div = array ();
+        for ($i=1; $i < $num ; $i++) { 
+            if ($num % $i == 0) {
+                $div[] = $i;
+            }
+        }
+        return $div;
+    }
+     $div = getCommonDivisors(40);
+    
 
 
   
 
 
 
-    ?>
+?>
 
 
     </body>
