@@ -54,12 +54,7 @@
 
 
 
-  //  $num = array(12345);
-   // $num = [1,2,3,4,5];
-  // $half = array_chunk($arr, ceil(count($arr)/2));
-//   lucky(123456);
-//   var_dump($half[0]);
-//   var_dump($half[1])
+
     
 //     function lucky($tiket)
 //     {
