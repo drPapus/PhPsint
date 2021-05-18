@@ -53,12 +53,39 @@
     // cnt(27);
 
 
+
+  //  $num = array(12345);
+   // $num = [1,2,3,4,5];
+  // $half = array_chunk($arr, ceil(count($arr)/2));
+//   lucky(123456);
+//   var_dump($half[0]);
+//   var_dump($half[1])
     
+//     function lucky($tiket)
+//     {
+//     $tiket = $tiket . "";
+//     $arr = str_split($tiket);
+//     $half = array_chunk($arr, ceil(count($arr)/2));
+//    // var_dump($half);
+//     if (array_sum($half[0]) == array_sum($half[1])) {
+//         echo 'lucky';
+//     } else {
+//         echo 'ne fart';
+//     }
+//     }
+
+//    echo lucky(123456);
+//   // var_dump($arr);
+    
+
+
+
+  
 
 
 
     ?>
-    
+
 
     </body>
 </html>
