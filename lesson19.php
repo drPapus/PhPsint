@@ -3,72 +3,43 @@
     <head>
     </head>
     <body>
-    <?php 
-    // function square($var = 5)
+    <?php
+
+    // function wcut($str, $num = 10)
     // {
-    //     $result = $var*$var;
-    //     return $result.'<br>';
+    //     return substr($str, 0, $num);
     // }
-    // echo square();
-    // echo square(3);
+    // echo wcut('Nisi fugiat consequat pariatur magna.',5);
 
-    // function words($word1, $word2='world', $word3='!')
+    // $arr = range(1,5);
+    // last($arr);
+    // function last($arr)
     // {
-    //     echo $word1;
-    //     echo $word2;
-    //     echo $word3;
+    //     echo array_pop($arr).'<br>';
 
+    //     if (!empty($arr)) {
+    //         last($arr);
+    //     }
     // }
-    // words('Hello, ', 'Dimon');
+    
+    sum(12345);
 
-    // function func()
-    // {
-    //     $local = 'Test!';
-    //     var_dump($local);
-    // }
-
-    // $test = 'Тест!';
-    // function func()
-    // {
-    //     global $test;
-    //     var_dump($test);
-    // }
-    // $func();
-
-    // function func()
-    // {
-    //     static $a;
-    //     $a++;
-    //     echo $a;
-    // }
-    // func();
-    // func();
-    // func();
-    //
-    // function kv($var)
-    // {
-    //     return $var*$var;
-    // }
-
-    // $test = 2;
-
-    // echo kv($test)
-    $arr = [1,2,3,4,5];
-    last($arr);
-    function last($arr)
+    function sum($num)
     {
-        echo array_pop($arr).'<br>';
-        if(!empty($arr)) {
-            last($arr);
-        }
+        $result = array_sum($num);
+
+            if ($result > 9) {
+                $result = sum($result);
+            }
+            return $result;
     }
+    
+
 
 
 
     ?>
 
-
-    
 
     </body>
 </html>
