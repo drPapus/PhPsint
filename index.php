@@ -5,9 +5,8 @@
     <body>
     <h1>Задачи</h1>
 
-    <?php include 'lesson19.php';?>
+    <?php include 'lesson20.php';?>
     <br><br>
-<!-- <?php include 'lesson15.php';?>  -->
 
     </body>
 </html>
