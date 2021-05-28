@@ -99,6 +99,149 @@
     //     $sum += $key * $key;
     // }
     // echo $sum;
+
+    //14 задача
+
+    // $arr = range(1,10);
+    // foreach ($arr as $key) {
+    //     $sum += $key * $key;
+
+    // }
+    // echo floor(sqrt($sum));
+
+    // $arr = range(1,30);
+    // $sum = 0;
+    // foreach ($arr as $key) {
+    //     if ($key > 0 and $key < 10) {
+    //         $sum += $key;
+            
+    //     }
+    // }
+    // echo $sum.'<br>';
+
+    //16
+
+    // $arr = [1,2,3,4,1,1,1,5,6,7,8,9];
+    //     foreach ($arr as $key) {
+    //     $i = count($arr);
+    //     if ($i and $arr[$i] == $arr[($i-1)]) {
+    //         echo $arr[$i].'<br>';
+    //     }
+    //     }
+
+//     $arr = [4,12,73,8,1,1,1,36,7,6,22,22,3];
+
+// for ($i = 0; $i < count($arr); $i++) {
+//     if ($i && $arr[$i] == $arr[($i-1)]) {
+//         echo 'есть идущие подряд: '.$arr[$i].' - '.$arr[$i].'<br>';
+//     }
+// }
+
+    // for ($i=1; $i <= 10; $i++) { 
+    //     for ($j=1; $j <= $i ; $j++) { 
+    //         echo $i;
+    //     }
+    //     echo '<br>';
+    // }
+
+	// $arr = [
+	// 	0=>['name'=>'Коля', 'salary'=>300],
+	// 	1=>['name'=>'Вася', 'salary'=>400],
+	// 	2=>['name'=>'Петя', 'salary'=>500],
+	// ];
+
+    // foreach ($arr as $key) {
+    //     echo $key['name'].'-'.$key['salary'].'<br>';
+    // }
+
+    // for ($i=1; $i <= 10 ; $i++) { 
+    //     for ($j=1; $j < 10; $j++) { 
+    //         $arr[$i][] = mt_rand(1,10); 
+    //     }
+    // }
+
+    // for ($i=1; $i <= 10; $i++) { 
+    //    for ($j=1; $j <= 10 ; $j++) { 
+    //        $arr[$i][] = $j;
+    //    }
+    // }
+
+    // echo '<pre>';
+    // print_r($arr);
+    // echo '</pre>';
+
+    //Практика
+
+
+
+    // function strlow($str){
+    //     $str = lcfirst($str);
+    //     return $str;
+    // }
+    // echo strlow('Low string');
+        
+        // function rew($str){
+
+        //     $arr = str_split($str);
+        //     print_r(array_reverse($arr));
+        // }
+        // rew('string');
+
+        // function rew($str)
+        // {   $arr = str_split($str);
+        //     for ($i = count($arr) - 1; $i >= 0; $i--) { 
+        //         echo $arr[$i];
+        //     }
+        // }
+
+        // rew('long string');
+            
+            // $str = "my string";
+
+            // echo strtoupper($str);
+            // echo strtolower($str);
+
+            // $str = 'MystrIng';
+            // $arr = str_split($str);
+            // $str2 = '';
+            // foreach ($arr as $key){
+            //     if(ord($key) >= 97 && ord($key) <=122) {
+            //         $str2 .= strtoupper($key);
+            //     } else {
+            //         $str2 .= strtolower($key);
+            //     }
+            // }
+            // echo $str2;
+
+            // $str = 'var_text_hello';
+            // $str = str_replace('_',' ', $str);
+            // $str = ucwords($str);
+            // $str = str_replace(' ', '', $str);
+            // echo $str;
+
+            // $arr = explode('_','var_test_text');
+            // $str = '';
+            // foreach ($arr as $key) {
+            //     if ($key == $arr[0]) {
+            //         $str .= $key;
+            //     } else {
+            //         $str .= ucfirst($key);
+            //     }
+            // }
+            // echo $str;
+
+            // for ($i=1; $i <= 9; $i++) { 
+            //     echo str_repeat($i, $i).'<br>';
+            // }
+
+            
+
+
+            // $str = 'xxxxxxxxxxxxxxxxxxxx';
+            // for ($i = strlen($str)-1; $i >= 0 ; $i--) { 
+            //    echo substr($str,-$i,$i).'<br>';     
+            // }
+        
     
 
 
