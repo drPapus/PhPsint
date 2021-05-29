@@ -241,9 +241,104 @@
             // for ($i = strlen($str)-1; $i >= 0 ; $i--) { 
             //    echo substr($str,-$i,$i).'<br>';     
             // }
-        
-    
 
+            // $arr = [2,3,5,7,1];
+            // $newarr = [];
+
+            // foreach ($arr as $key) {
+            //     for ($i=0; $i < $key; $i++) { 
+            //         $newarr[] .= $key; 
+            //     }
+            // }
+
+    
+            // echo '<pre>';
+            // print_r($newarr);
+            // echo '</pre>';
+
+
+            // $arr = [1,2,3,4,5,6,8,9,10,11,12];
+            // $result = [];
+            // foreach ($arr as $key => $value) {
+            //     if ($key % 2 == 0) {
+            //         $result[$value] = $key+2;
+            //     }
+            // }
+            // echo '<pre>';
+            // print_r($result);
+            // echo '</pre>';
+
+
+
+            // $arr = [1,2,3,4,5,6,8,9,10,11,12,13,14];
+            // $result = [];
+            // $keys = [];
+            // $num = count($arr)-1;
+            // for ($i=0; $i <= $num; $i++) { 
+            //     $result[$i+1] = $arr[$i] + 1;         
+            // }
+
+            // echo '<pre>';
+            // print_r($result);
+            // echo '</pre>';
+
+            // $arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14];
+            // $newArr = [];
+            // $i = 0;
+            // foreach ($arr as $elem) {
+            //     if ($i % 2 == 0) {
+                    
+            //         $newArr[] = $elem; 
+            //     }
+            // }
+
+            // echo '<pre>';
+            // print_r($newArr);
+            // echo '</pre>';
+
+            //Дана строка. Удалите из этой строки четные символы. 
+
+            // $str = 'In cillum aliqua nulla';
+            // $arr = str_split($str);
+            // $newArr = [];
+            // $i = 1;
+            // foreach ($arr as $key) {
+            //     echo $i++;
+            //     if ($i % 2) {
+            //         unset($arr[$key]);
+            //     } else {
+            //         $newStr .= $key; 
+            //     }
+            // }
+
+            // echo '<pre>';
+            // echo $newStr;
+            // echo '<br>';
+            // echo $str;
+            // echo '</pre>';
+
+
+            // Дана строка. Поменяйте ее первый символ на второй и наоборот, 
+            // третий на четвертый и наоборот, пятый 
+            // на шестой и наоборот и так далее. То есть из строки 
+            // '12345678' нужно сделать '21436587'. 
+
+            $str = '12345678';
+
+            $newStr = array_reverse(str_split(strrev($str), 2));
+
+            echo implode('',$newStr);
+
+
+
+
+
+
+            
+
+
+        
+                
 
 
 
